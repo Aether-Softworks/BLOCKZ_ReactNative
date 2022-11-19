@@ -19,8 +19,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start_p": "parcel serve ./index.html",
-    "build_p": "parcel build ./index.html",
+    "start_p": "parcel serve index.html",
+    "build_p": "parcel build index.html",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

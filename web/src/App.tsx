@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import { View, StyleSheet } from 'react-native';
 import { Counter } from './shared/components/counter';
 

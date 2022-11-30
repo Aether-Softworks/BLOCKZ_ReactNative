@@ -54,7 +54,7 @@ export const Homepage = () => {
     <View style={styles.container}>
         <View style={styles.containerBlockz}>
             <Blockzlogo/>
-            <Text>TEST</Text>            
+            <Text>TEST IMAGE</Text>            
         </View>
         <View>
 

@@ -10,6 +10,7 @@ import {
   Colors
 } from 'react-native/Libraries/NewAppScreen';
 import { Counter } from './app/shared/components/counter';
+import { Homepage } from './app/shared/components/homepage';
 
 const App = () => {
   const isDarkMode = useColorScheme() === 'dark';
@@ -29,7 +30,7 @@ const App = () => {
         contentInsetAdjustmentBehavior="automatic"
         contentContainerStyle={backgroundStyle}
         style={backgroundStyle}>
-          <Counter/>
+          <Homepage/>
       </ScrollView>
     </SafeAreaView>
   );
